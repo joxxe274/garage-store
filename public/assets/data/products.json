@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Mitsubishi L200 - 2020",
+    "price": 29000000,
+    "currency": "₡",
+    "images": [
+      "/assets/img/products/test_1.jpg",
+      "/assets/img/products/test_2.jpg"
+    ],
+    "id": 1,
+    "description": [
+      "Versión full, asientos de cuero, full accesorios",
+      "Servicios de mantenimienot al día",
+      "Faros led"
+    ],
+    "tags": [
+      "vh"
+    ],
+    "status": "Excelentes condiciones",
+    "featured": true
+  },
+  {
+    "name": "Refrigerador - Samsung",
+    "price": 1500000,
+    "currency": "₡",
+    "images": [
+      "/assets/img/products/test_2.jpg"
+    ],
+    "id": 2,
+    "description": ["Versión full, asientos de cuero, full accesorios"],
+    "tags": [
+      "ed"
+    ],
+    "status": "Excelentes condiciones",
+    "featured": false
+  },
+  {
+    "name": "Escritorio computadora",
+    "price": 100,
+    "currency": "$",
+    "images": [
+      "/assets/img/products/test_2.jpg"
+    ],
+    "id": 3,
+    "description": ["Descripción del escritorio"],
+    "tags": [
+      "mb"
+    ],
+    "status": "Excelentes condiciones",
+    "featured": true
+  }
+]

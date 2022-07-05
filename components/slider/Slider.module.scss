@@ -1,0 +1,65 @@
+.slide {
+  width: 100%;
+  .slideContent {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    box-shadow: 0 20px 50px 5px #e9eef7;
+    >div {
+      flex-grow: 1;
+    }
+    @media screen and (max-width: 700px) {
+      display: block;
+    }
+    .imageContent {
+      width: 75%;
+      position: relative;
+      height: 40vw;
+      min-height: 320px;
+      max-height: 460px;
+      @media screen and (max-width: 700px) {
+        width: 100%;
+      }
+    }
+    .infoContent {
+      width: 25%;
+      padding: 20px;
+      @media screen and (max-width: 700px) {
+        background-color: rgba(0, 0, 0, 0.05);
+        width: 100%;
+      }
+      h2 {
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 23px;
+      }
+      p {
+        color: rgba(0, 0, 0, 0.8);
+        font-weight: normal;
+        font-size: 14px;
+        &.productPrice {
+          span {
+            font-weight: bold;
+            font-size: 15px;
+          }
+        }
+      }
+      .moreButton {
+        width: 170px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.4) 1px 14px 36px;
+        margin-top: 40px;
+        cursor: pointer;
+        max-width: 100%;
+      }
+    }
+  }
+}

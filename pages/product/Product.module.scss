@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  width: 100%;
+  padding: 20px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  @media screen and (max-width: 650px) {
+    display: block;
+  }
+  .sliderContainer {
+    width: 50%;
+    @media screen and (max-width: 650px) {
+      width: 100%;
+    }
+    .slide {
+      width: 100%;
+      height: 0;
+      padding-top: 70.25%;
+      position: relative;
+    }
+    .buttonShare {
+      width: 120px;
+      height: 40px;
+      background-color: rgb(72, 125, 230);
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: #d5d5d5 1px 14px 36px;
+      cursor: pointer;
+      margin: 30px auto;
+      color: #fff;
+    }
+  }
+  .contentCard {
+    position: relative;
+    border-radius: 4px;
+    box-shadow: #d5d5d5 1px 14px 36px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    width: calc(50% - 45px);
+    @media screen and (max-width: 650px) {
+      width: 100%;
+    }
+    h2 {
+      font-size: 18px;
+      color: rgba(0, 0, 0, 0.8);
+    }
+    p {
+      color: rgba(0, 0, 0, 0.8);
+      font-weight: normal;
+      font-size: 14px;
+      &.productPrice {
+        span {
+          font-weight: bold;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}

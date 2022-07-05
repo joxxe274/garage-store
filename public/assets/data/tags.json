@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Vehículo",
+    "tag": "vh"
+  },
+  {
+    "label": "Electrodoméstico",
+    "tag": "ed"
+  },
+  {
+    "label": "Mueble",
+    "tag": "mb"
+  },
+  {
+    "label": "Computación",
+    "tag": "cp"
+  }
+]
