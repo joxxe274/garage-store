@@ -7,6 +7,7 @@ import { Header } from '../../components/header/Header.component';
 import Slider, { Settings } from 'react-slick';
 import Image from 'next/image';
 import { MainLayout } from '../../layouts/Main.layout';
+import { getProducts, getProduct } from '../../services/apiService';
 
 interface ProductProps {
   product: Product;
@@ -82,8 +83,10 @@ export default ProductComponent;
 
 export const getStaticPaths: GetStaticPaths = async (ctx) => {
 
-  const paths = dataJson.map((post) => ({
-    params: { id: String(post.id) },
+  const res = await getProducts();
+
+  const paths = res.products.map((product: Product) => ({
+    params: { id: String(product.id) },
   }))
 
   return {
@@ -96,7 +99,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
   const { id } = params as { id: string };
 
-  const data = dataJson.find(product => product.id === Number(id));
+  const data = await getProduct(Number(id));
 
   return {
     props: {
