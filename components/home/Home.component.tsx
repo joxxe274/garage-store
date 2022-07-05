@@ -4,8 +4,6 @@ import React from 'react'
 import { FilterTag, Product } from '../../@types/products';
 import styles from './Home.module.scss';
 import { ProductCard } from '../product_card/ProductCard.component';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowAltCircleDown } from '@fortawesome/free-solid-svg-icons';
 import useCollapse from 'react-collapsed';
 import { getTags } from '../../services/apiService';
 
@@ -92,7 +90,7 @@ export const HomeComponent: React.FC<HomeProps> = ({products}) => {
           <div className={styles.filterTitle} {...getToggleProps({ onClick: handleOnClick })}>
             <h2>Categorías</h2>
             <div>
-              <FontAwesomeIcon icon={faArrowAltCircleDown} size={'sm'} color="#777" />
+              <Image src={'/assets/img/icons/arrow-down-icon.png'} alt="Arrow" width={10} height={10}></Image>
             </div>
           </div>
           <div className={styles.filterContent} {...getCollapseProps()}>
