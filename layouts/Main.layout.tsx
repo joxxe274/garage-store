@@ -12,7 +12,7 @@ export const MainLayout: React.FC<Props> = ({
   children,
   title = `Joxxe's garage sales`,
   description = 'Venta de garage en Costa Rica, vehículos, linea blanca, electrodomésticos, todo en excelente estado y buen precio.',
-  image = `/assets/img/garage-sale-poster.jpg`,
+  image = `/meta/default.jpg`,
 }) => {
   return (
     <>
