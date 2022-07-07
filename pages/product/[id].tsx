@@ -7,6 +7,7 @@ import { Header } from '../../components/header/Header.component';
 import Slider, { Settings } from 'react-slick';
 import Image from 'next/image';
 import { MainLayout } from '../../layouts/Main.layout';
+import Head from 'next/head';
 import { getProducts, getProduct } from '../../services/apiService';
 
 interface ProductProps {
@@ -47,6 +48,10 @@ const ProductComponent: React.FC<ProductProps> = ({product}) => {
 
   return (
     <MainLayout description={descriptionPage} image={'/assets/test_og.jpg'}>
+      <Head>
+        <meta property="og:description" content={descriptionPage} />
+        <meta property="og:image" content={process.env.NEXT_PUBLIC_SELF_URL + '/assets/test_og.jpg'} />
+      </Head>
       <Header />
       <div className={styles.container}>
         <div className={styles.sliderContainer}>
