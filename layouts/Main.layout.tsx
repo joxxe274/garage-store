@@ -14,6 +14,7 @@ export const MainLayout: React.FC<Props> = ({
   description = 'Venta de garage en Costa Rica, vehículos, linea blanca, electrodomésticos, todo en excelente estado y buen precio.',
   image = `/meta/default.jpg`,
 }) => {
+  console.log(image)
   return (
     <>
       <Head>
