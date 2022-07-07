@@ -46,7 +46,7 @@ const ProductComponent: React.FC<ProductProps> = ({product}) => {
   }
 
   return (
-    <MainLayout description={descriptionPage} image={product.images[0]}>
+    <MainLayout description={descriptionPage} image={'/assets/test_og.jpg'}>
       <Header />
       <div className={styles.container}>
         <div className={styles.sliderContainer}>
