@@ -1,6 +1,6 @@
 import React from 'react'
 import { Product } from '../../@types/products';
-import { GetStaticPaths, GetStaticProps } from 'next';
+import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import styles from './Product.module.scss'
 import { Header } from '../../components/header/Header.component';
 import Slider, { Settings } from 'react-slick';
@@ -24,7 +24,7 @@ var settings: Settings = {
 
 
 
-const ProductComponent: React.FC<ProductProps> = ({product}) => {
+const ProductComponent: NextPage<ProductProps> = ({product}) => {
   const [shareAvailable, setShareAvailable] = React.useState(false);
   const descriptionPage = `${product.name} - ${product.description[0]}`;
 
