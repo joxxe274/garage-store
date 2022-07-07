@@ -6,7 +6,6 @@ import Image from 'next/image';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <MainLayout>
         <Component {...pageProps} />
         <div className="footer">
           <div className="footer-content">
@@ -24,7 +23,6 @@ function MyApp({ Component, pageProps }: AppProps) {
             </div>
           </div>
         </div>
-      </MainLayout>
     </>
   )
 }

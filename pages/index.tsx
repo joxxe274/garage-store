@@ -6,6 +6,7 @@ import { Header } from '../components/header/Header.component'
 import { SliderComponent } from '../components/slider/Slider.component'
 import { HomeComponent } from '../components/home/Home.component';
 import { getProducts } from '../services/apiService';
+import { MainLayout } from '../layouts/Main.layout'
 
 const Home: NextPage = () => {
   const [products, setProducts] = React.useState([]);
@@ -19,11 +20,13 @@ const Home: NextPage = () => {
   }, []);
 
   return (
-    <div >
-      <Header></Header>
-      <SliderComponent products={products} />
-      <HomeComponent products={products}></HomeComponent>
-    </div>
+    <MainLayout>
+      <div >
+        <Header></Header>
+        <SliderComponent products={products} />
+        <HomeComponent products={products}></HomeComponent>
+      </div>
+    </MainLayout>
   )
 }
 
