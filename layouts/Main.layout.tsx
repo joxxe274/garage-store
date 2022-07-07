@@ -26,11 +26,11 @@ export const MainLayout: React.FC<Props> = ({
         <meta name="twitter:creator" content="@joxxe274" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
-        <meta name="twitter:image" content={image} />
+        <meta name="twitter:image" content={process.env.NEXT_PUBLIC_SELF_URL + image} />
         {/* open graph meta tags */}
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
-        <meta property="og:image" content={image} />
+        <meta property="og:image" content={process.env.NEXT_PUBLIC_SELF_URL + image} />
         <meta property="og:url" content={process.env.NEXT_PUBLIC_SELF_URL} />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Joxxe's garage sale." />
