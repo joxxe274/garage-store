@@ -2,7 +2,6 @@ import axios from "axios";
 import { Product } from '../@types/products';
 
 export const getProducts = async () => {
-  console.log(`${process.env.NEXT_PUBLIC_SELF_URL}/api/data`)
   try {
     const res = await axios.get(`${process.env.NEXT_PUBLIC_SELF_URL}/api/data`);
     return res.data;

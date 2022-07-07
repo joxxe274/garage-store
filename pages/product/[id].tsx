@@ -26,7 +26,9 @@ var settings: Settings = {
 
 const ProductComponent: React.FC<ProductProps> = ({product}) => {
   const [shareAvailable, setShareAvailable] = React.useState(false);
-  const descriptionPage = `${product.name} - ${product.description}`;
+  const descriptionPage = `${product.name} - ${product.description[0]}`;
+
+  console.log(descriptionPage);
 
   React.useEffect(() => {
     setShareAvailable(!navigator.canShare ? false : true);
@@ -45,7 +47,7 @@ const ProductComponent: React.FC<ProductProps> = ({product}) => {
   }
 
   return (
-    <MainLayout description={descriptionPage} image={product.images[0]}>
+    <MainLayout description={descriptionPage} image={'/assets/img/test_og.jpg'}>
       <Header />
       <div className={styles.container}>
         <div className={styles.sliderContainer}>
