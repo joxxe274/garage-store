@@ -38,7 +38,7 @@ const ProductComponent: NextPage<ProductProps> = ({product}) => {
   const webShare = async () => {
     const title = product.name;
     const text = product.name + ' ' + product.description[0];
-    const url = `${process.env.SELF_URL}/product/${product.id}`;
+    const url = `${process.env.NEXT_PUBLIC_SELF_URL}/product/${product.id}`;
   
     try {
       await navigator.share({ title, text, url });
