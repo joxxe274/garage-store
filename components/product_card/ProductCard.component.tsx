@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React from 'react'
 import styles from './ProductCard.module.scss';
 import { Product } from '../../@types/products';
+import { formatNumber } from '../../services/utils';
 
 export const ProductCard: React.FC<Product> = ({images, name, description, price, id, currency}) => {
 
@@ -20,7 +21,7 @@ export const ProductCard: React.FC<Product> = ({images, name, description, price
             {description[0]}
           </p>
           <p className={styles.productPrice}>
-            <span>Precio:</span> {price}{currency}
+            <span>Precio:</span> {formatNumber(price)}{currency}
           </p>
           <Link href={`/product/${id}`}>
             <div className={styles.moreButton}>

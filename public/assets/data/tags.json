@@ -4,15 +4,47 @@
     "tag": "vh"
   },
   {
+    "label": "Accesorios vehículo",
+    "tag": "acvh"
+  },
+  {
+    "label": "Moto",
+    "tag": "mt"
+  },
+  {
+    "label": "Accesorio moto",
+    "tag": "acmt"
+  },
+  {
     "label": "Electrodoméstico",
     "tag": "ed"
   },
   {
-    "label": "Mueble",
-    "tag": "mb"
+    "label": "Oficina",
+    "tag": "of"
   },
   {
     "label": "Computación",
-    "tag": "cp"
+    "tag": "cmp"
+  },
+  {
+    "label": "Electrónica",
+    "tag": "el"
+  },
+  {
+    "label": "Entretenimiento",
+    "tag": "ent"
+  },
+  {
+    "label": "Hogar",
+    "tag": "hm"
+  },
+  {
+    "label": "Audio",
+    "tag": "au"
+  },
+  {
+    "label": "Mueble",
+    "tag": "mb"
   }
 ]

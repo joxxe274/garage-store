@@ -7,6 +7,7 @@ import Slider, { Settings } from 'react-slick';
 import Image from 'next/image';
 import { MainLayout } from '../../layouts/Main.layout';
 import { getProducts, getProduct } from '../../services/apiService';
+import { formatNumber } from '../../services/utils';
 
 interface ProductProps {
   product: Product;
@@ -69,10 +70,14 @@ const ProductComponent: NextPage<ProductProps> = ({product}) => {
         <div className={styles.contentCard}>
           <div>
             <h2>{product.name}</h2>
-            <p className={styles.productPrice}><span>Precio:</span> {product.price}{product.currency}</p>
+            <p className={styles.productPrice}><span>Precio:</span> {formatNumber(product.price)}{product.currency}</p>
             {product.description.map((desc, idx) => (
               <p key={idx} className={styles.productDescription}>{desc}</p>
             ))}
+            {product.ref_url && (
+              <p className={styles.productRef}>Referencia: 
+              <a href={product.ref_url} target="_BLANK" rel="noreferrer">Link.</a></p>
+            )}
           </div>
         </div>
       </div>

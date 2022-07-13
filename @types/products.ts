@@ -8,6 +8,7 @@ export type Product = {
   id: number;
   currency: string;
   featured?: boolean;
+  ref_url?: string;
 }
 
 export type FilterTag = {

@@ -3,6 +3,12 @@
   flex: 1 1 200px;
   position: relative;
   flex-grow: 1;
+  max-width: 240px;
+  max-height: 350px;
+  @media screen and (max-width: 650px) {
+    max-width: 100%;
+    max-height: auto;
+  }
   @media screen and (max-width: 459px) {
     padding: 10px 0;
   }

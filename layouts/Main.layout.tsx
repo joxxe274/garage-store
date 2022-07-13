@@ -10,7 +10,7 @@ interface Props {
 
 export const MainLayout: React.FC<Props> = ({
   children,
-  title = `Joxxe's garage sales`,
+  title = `Joxxe's garage sale`,
   description = 'Venta de garage en Costa Rica, vehículos, linea blanca, electrodomésticos, todo en excelente estado y buen precio.',
   image = `/meta/default.jpg`,
 }) => {

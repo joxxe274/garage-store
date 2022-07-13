@@ -4,14 +4,40 @@
     "price": 29000000,
     "currency": "₡",
     "images": [
-      "/assets/img/products/test_1.jpg",
-      "/assets/img/products/test_2.jpg"
+      "/assets/img/products/l200_1.jpg",
+      "/assets/img/products/l200_2.jpg",
+      "/assets/img/products/l200_3.jpg",
+      "/assets/img/products/l200_4.jpg",
+      "/assets/img/products/l200_5.jpg",
+      "/assets/img/products/l200_6.jpg",
+      "/assets/img/products/l200_7.jpg",
+      "/assets/img/products/l200_8.jpg",
+      "/assets/img/products/l200_9.jpg",
+      "/assets/img/products/l200_10.jpg",
+      "/assets/img/products/l200_11.jpg"
     ],
     "id": 1,
     "description": [
       "Versión full, asientos de cuero, full accesorios",
       "Servicios de mantenimienot al día",
-      "Faros led"
+      "17.000km",
+      "Extras:",
+      " ∙ Llantas Yokohama LT- 285 / 65/ R18 (Llanta de respuesto incluida)",
+      " ∙ Estribos de hierro",
+      " ∙ Porta accesorios con bidon de gasolina, porta llanta, porta planchas de rescate en arena, porta Hi-lift",
+      " ∙ Planchas de rescate en arena",
+      " ∙ Bidon de gasolina",
+      " ∙ Hi-lift",
+      " ∙ Cobertor plegable rígido",
+      " ∙ Tanque de agua Oasis eléctrico",
+      " ∙ Toldo 2x3",
+      " ∙ Flares",
+      " ∙ Kit de suspensión Ironman - Top version",
+      " ∙ Luces led delanteras RIGID",
+      " ∙ Plataforma Ropaca con luces laterales",
+      " ∙ Kit de doble batería con toma de corriente en cajón",
+      " ∙ Barra led en plataforma",
+      " ∙ Espaciadores"
     ],
     "tags": [
       "vh"
@@ -20,33 +46,847 @@
     "featured": true
   },
   {
-    "name": "Refrigerador - Samsung",
-    "price": 1500000,
+    "name": "Parlante (planta) aiwa",
+    "price": 70000,
     "currency": "₡",
     "images": [
-      "/assets/img/products/test_2.jpg"
+      "/assets/img/products/parlante_aiwa_1.jpg",
+      "/assets/img/products/parlante_aiwa_2.jpg"
     ],
     "id": 2,
-    "description": ["Versión full, asientos de cuero, full accesorios"],
+    "description": [
+      "Woofer: altavoz de graves 10″ X2, 30 oz, 38 mm Bobina de voz KSV.",
+      "Potencia: 300W",
+      "Con un micrófono inalámbrico UHF",
+      "Con luz LED",
+      "Respuesta de frecuencia: S0Hz-45 h z Sensibilidad: 93dB +/- 2dB"
+    ],
     "tags": [
-      "ed"
+      "hm",
+      "ent",
+      "el"
     ],
     "status": "Excelentes condiciones",
     "featured": false
   },
   {
-    "name": "Escritorio computadora",
+    "name": "Televisor QLED Samsung 4k 65''",
     "price": 100,
     "currency": "$",
     "images": [
-      "/assets/img/products/test_2.jpg"
+      "/assets/img/products/tv_samsung_1.jpg",
+      "/assets/img/products/tv_samsung_2.jpg"
     ],
     "id": 3,
-    "description": ["Descripción del escritorio"],
+    "description": [
+      "El surgimiento de mil millones de sombras de color",
+      "más de mil millones de colores",
+      "Mira tus programas y películas preferidas en colores más reales, intensos y nítidos. Observa todos los complejos detalles de color en cada escena, como si fueras parte de la acción.",
+      "Q6F te ofrece el 100 % de volumen de color, lo que significa que maximiza el rango de colores precisos, ricos y detallados que puedes disfrutar en el televisor",
+      " "
+    ],
+    "ref_url": "https://www.samsung.com/latin/tvs/qled-tv/q6fn-65-inch-qled-4k-smart-tv-qn65q6fnapxpa/",
     "tags": [
-      "mb"
+      "el",
+      "ec",
+      "hm"
     ],
     "status": "Excelentes condiciones",
     "featured": true
+  },
+  {
+    "name": "Pantalla original L200",
+    "price": 100,
+    "currency": "$",
+    "images": [
+      "/assets/img/products/reproductor_l200_1.jpg",
+      "/assets/img/products/reproductor_l200_2.jpg"
+    ],
+    "id": 4,
+    "description": [
+      "En excelentes condiciones, compatible con varios modelo mitsubishi.",
+      "Bluetooth, usb, cable auxiliar, 100% funcional."
+    ],
+    "tags": [
+      "acvh",
+      "vh"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Casco AVG + Intercom",
+    "price": 80,
+    "currency": "$",
+    "images": [
+      "/assets/img/products/casco_avg_1.jpg",
+      "/assets/img/products/casco_avg_2.jpg"
+    ],
+    "id": 5,
+    "description": [
+      "Casco marca AVG, muy poco uso, sin ninguna caida.",
+      "Incluye intercom midland instalado, listo para user."
+    ],
+    "tags": [
+      "acmt",
+      "vh",
+      "mt"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Silla Gamer",
+    "price": 100000,
+    "currency": "₡",
+    "images": [
+      "/assets/img/products/silla_gamer_1.jpg",
+      "/assets/img/products/silla_gamer_2.jpg"
+    ],
+    "id": 6,
+    "description": [
+      "Silla gamer marca VERTAGEAR, poco uso",
+      "El respaldo y el asiento del PL4500 están acolchados con fibra de café de alta calidad, lo que permite que el material exhiba propiedades únicas, como secado rápido para mayor higiene y comodidad",
+      "Base metálica",
+      "Sistema de elevación a gas de grado industrial clase 4"
+    ],
+    "ref_url": "https://extremetechcr.com/tienda/sillas-gamer/2900-vertagear-racing-p-line-pl4500-negrorojo.html",
+    "tags": [
+      "of",
+      "cmp"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Mouse Gamer Logitech g502 Hero",
+    "price": 15,
+    "currency": "$",
+    "images": [
+      "/assets/img/products/mouse_gamer_1.jpg",
+      "/assets/img/products/mouse_gamer_2.jpg",
+      "/assets/img/products/mouse_gamer_3.jpg"
+    ],
+    "id": 7,
+    "description": [
+      "Mouse Logitech g502-Hero",
+      "Botones personalizables y memoria integrada: 11 comandos personalizados asignados a los botones y guarda hasta 5 perfiles listos para jugar directamente al ratón.",
+      "Sensor de 16 K: el sensor de alto rendimiento más preciso de Logitech, con hasta 16.000 DPI para la máxima velocidad, precisión y capacidad de respuesta en todo el rango de DPI",
+      "Tensión del botón del interruptor mecánico: sistema de tensión de muelles de metal y bisagras pivotantes incorporadas en los botones del ratón de juego izquierdo y derecho para una sensación nítida y limpia, con retroalimentación de clic rápido.",
+      " "
+    ],
+    "ref_url": "https://www.amazon.com/Ratón-rendimiento-jugar-videojuegos-Logitech/dp/B07GBZ4Q68/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=253WU9J96S08P&keywords=G501+HERO&qid=1657610367&smid=ATVPDKIKX0DER&sprefix=g502+hero%2Caps%2C105&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyN0JXQkZIUVlGM0wyJmVuY3J5cHRlZElkPUEwNDY5Mjk2MU83SEJMMzRJQUNKRiZlbmNyeXB0ZWRBZElkPUExMDM3MzUxMldZR1Q3V0FKUks4UCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=",
+    "tags": [
+      "cmp",
+      "of"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Robot starwars BB-9",
+    "price": 130,
+    "currency": "$",
+    "images": [
+      "/assets/img/products/robot_bb8.jpg"
+    ],
+    "id": 8,
+    "description": [
+      "Movimiento auténtico: no importa si estás conduciendo o de patrulla, el droide BB-9E se mueve igual que en la pantalla.",
+      "Simulación holográfica: explora la galaxia de Star Wars con la aplicación y el entrenador del droide.",
+      "Codifica a BB-9E: descarga la aplicación de Sphero Edu (idioma español no garantizado) y utiliza comandos específicos del personaje para BB-9E y completa actividades STEM.",
+      " "
+    ],
+    "tags": [
+      "el",
+      "of",
+      "ent"
+    ],
+    "ref_url": "https://www.amazon.com/-/es/Droide-BB-9E-entrenador-controlado-aplicación/dp/B07169K88Y/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=7EBX9TYAUD53&keywords=robot+bb9&qid=1657610746&sprefix=robot+bb9%2Caps%2C117&sr=8-1",
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Amazon Kindle HD 7",
+    "price": 20,
+    "currency": "$",
+    "images": [
+      "/assets/img/products/kindle_1.jpg",
+      "/assets/img/products/kindle_2.jpg"
+    ],
+    "id": 9,
+    "description": [
+      "Pantalla IPS de 7 pulgadas; 16 o 32 GB de memoria interna (añade hasta 512 GB con la tarjeta microSD)"
+    ],
+    "tags": [
+      "el",
+      "of",
+      "ent"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Escritorio de vidrio en L",
+    "price": 50000,
+    "currency": "₡",
+    "images": [
+      "/assets/img/products/escritorio_l.jpg"
+    ],
+    "id": 10,
+    "description": [
+      "Escritorio de vidrio y hierro, en L",
+      "Medidas: ",
+      "Largo: 1.5 m (cada lado)",
+      "Ancho: 60cm",
+      "Alto: 75cm"
+    ],
+    "tags": [
+      "mb",
+      "of",
+      "cmp"
+    ],
+    "status": "______",
+    "featured": true
+  },
+  {
+    "name": "Peso inteligente",
+    "price": 15000,
+    "currency": "₡",
+    "images": [
+      "/assets/img/products/peso_xiaomi.jpg"
+    ],
+    "id": 11,
+    "description": [
+      "El sensor de acero al manganeso en forma de G puede detectar cambios de peso desde 50 g, lo que hace que las mediciones de la Mi báscula de composición corporal 2 sean más precisas. El pesaje también permite alternar entre jin, kilogramos y libras para facilitar la lectura.",
+      "El chip de medición de grasa BIA de alta precisión puede mostrar 13 métricas de composición corporal, incluido el peso corporal, el IMC, el porcentaje de grasa corporal, la masa muscular, la tasa de humedad corporal, la tasa de proteínas, el índice de grasa visceral y el metabolismo basal, para que conozcas completamente tu condición física.",
+      "La Mi báscula de composición corporal 2 puede realizar un cambio inteligente entre los modos de pesaje dinámico y estático. El peso mínimo de la báscula es de 100 g. Además de pesarte en modo dinámico, también puedes medir el peso de objetos, como frutas, verduras y paquetes en modo estático.",
+      " "
+    ],
+    "tags": [
+      "el",
+      "hm"
+    ],
+    "ref_url": "https://mistorecr.com/producto/mi-body-composition-scale-2/",
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Audífonos marca Marley",
+    "price": 20,
+    "currency": "$",
+    "images": [
+      "/assets/img/products/marley_audifono_1.jpg",
+      "/assets/img/products/marley_audifono_2.jpg"
+    ],
+    "id": 12,
+    "description": [
+      "Sonido superior: con sonido nítido y preciso, nuestros auriculares inalámbricos Positive Vibration 2 están diseñados con controladores dinámicos de 1.575 in para audio de alto rendimiento.",
+      "Comodidad prémium: fabricamos nuestros auriculares inalámbricos Positive Vibration 2 con almohadillas de felpa ultra cómodas y acolchado para la diadema para que puedas relajarte en la música durante horas.",
+      "Recargable y compatible: con una potente batería recargable, disfruta de 10 horas completas de tus listas de reproducción o podcasts favoritos. Compatible con iOS y Android, experimentarás ese sonido clásico de Marley sin importar cómo te conectes.",
+      " "
+    ],
+    "ref_url": "https://www.amazon.com/-/es/House-Marley-Positive-Vibration-conectividad/dp/B06XWCL3Z8/ref=sr_1_4?__mk_es_US=ÅMÅŽÕÑ&crid=DNOBZ5OSTZUJ&keywords=headphones%2Bmarley&qid=1657728674&sprefix=headphones%2Bmarley%2Caps%2C129&sr=8-4&th=1",
+    "tags": [
+      "cmp",
+      "au",
+      "el"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Parlantes Edifier R1280T",
+    "price": 50,
+    "currency": "$",
+    "images": [
+      "/assets/img/products/parlante_compu_1.jpg"
+    ],
+    "id": 13,
+    "description": [
+      "2 entradas AUX cómoda conexión a cualquier dispositivo que tenga una salida de auriculares de 0.13 pulgadas o salida RCA dual. Se conecta a dos dispositivos al mismo tiempo través de AUX, no necesita conectarse ni usa interruptor.",
+      "Calidad de sonido de estudio, reproducción de sonido natural a partir de cúpula de seda de alta frecuencia de 0.51 pulgadas y unidad de rango completo de 4 pulgadas.",
+      "Acabado de madera clásico de MDF de alta calidad con vinilo de efecto de madera. Sirve como un complemento perfecto para cualquier decoración del hogar.",
+      " "
+    ],
+    "ref_url": "https://www.amazon.com/-/es/gp/product/B016P9HJIA/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1",
+    "tags": [
+      "cmp",
+      "au",
+      "el"
+    ],
+    "status": "______",
+    "featured": true
+  },
+  {
+    "name": "Monitor QLed 49'' Samsung Curvo Ultra-Wide 1ms",
+    "price": 600000,
+    "currency": "₡",
+    "images": [
+      "/assets/img/products/monitor_49_0.jpg",
+      "/assets/img/products/monitor_49_1.jpg",
+      "/assets/img/products/monitor_49_2.jpg",
+      "/assets/img/products/monitor_49_3.jpg"
+    ],
+    "id": 14,
+    "ref_url": "https://www.intelec.co.cr/index.php?route=product/product&product_id=25070&search=samsung+monitor",
+    "description": [
+      "Tamaño de pantalla -  49",
+      "Plana / Curva -  Curvo",
+      "amaño de pantalla activa (HxV) (mm) -  1195,8 x 336,3 mm"
+    ],
+    "tags": [
+      "ent",
+      "cmp",
+      "el",
+      "of"
+    ],
+    "status": "______",
+    "featured": true
+  },
+  {
+    "name": "Monitor LG 29'' ",
+    "price": 120,
+    "currency": "$",
+    "images": [
+      "/assets/img/products/monitor_lg_29_1.jpg",
+      "/assets/img/products/monitor_lg_29_2.jpg"
+    ],
+    "id": 15,
+    "description": [
+      "Pantalla IPS de 29 pulgadas, panorámica, Full HD, 21:9 (2560 x 1080)",
+      "Gama de colores SRGB 99 % con HDR 10",
+      "Conectividad USB tipo C",
+      "AMD Freesync",
+      " "
+    ],
+    "ref_url": "https://www.amazon.com/-/es/29WP60G-B-Monitor-29-pulgadas-conectividad-prácticamente/dp/B08V86LGBS/ref=sr_1_4?__mk_es_US=ÅMÅŽÕÑ&crid=1GNL6UXFN3ELL&keywords=lg+monitor+29+inch&qid=1657729637&sprefix=lg+monitor+29+inch%2Caps%2C154&sr=8-4",
+    "tags": [
+      "ent",
+      "cmp",
+      "el",
+      "of"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Kit de herramientas",
+    "price": 8000,
+    "currency": "₡",
+    "images": [
+      "/assets/img/products/kit_herramientas_1.jpg"
+    ],
+    "id": 16,
+    "description": [
+      "Kit de herramientas variado.",
+      "Faltan un par de llaves."
+    ],
+    "tags": [
+      "hm"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Kit de limpieza y mantenimiento de moto y casco",
+    "price": 10000,
+    "currency": "₡",
+    "images": [
+      "/assets/img/products/kit_limpieza_moto_1.jpg",
+      "/assets/img/products/kit_limpieza_moto_2.jpg"
+    ],
+    "id": 17,
+    "description": [
+      "Totalmente nuevo.",
+      "Desengrasantes para casco y vicera de motos",
+      "Limpiador de cadenas",
+      "Lamina anti empañante para casco",
+      "Mopa",
+      "Aparte de los químicos que se ven en la foto, se regalan otros productos para limpieza."
+    ],
+    "tags": [
+      "vh",
+      "mt",
+      "acmt"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Palancas cortas freno embrague",
+    "price": 100,
+    "currency": "₡",
+    "images": [
+      "/assets/img/products/manillas_moto_1.jpg",
+      "/assets/img/products/manillas_moto_2.jpg"
+    ],
+    "id": 18,
+    "description": [
+      "Condición: 100% nuevo.",
+      "Material: mecanizado de aluminio CNC Billet T6061.",
+      "Tamaño: mango de palanca de 5.591 in (2 dedos)."
+    ],
+    "tags": [
+      "vh",
+      "mt",
+      "acmt"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Kit ARTR Titanium para envolver el cabezal del escape ",
+    "price": 14,
+    "currency": "$",
+    "images": [
+      "/assets/img/products/cinta_aislante_1.jpg",
+      "/assets/img/products/cinta_aislante_2.jpg"
+    ],
+    "id": 19,
+    "description": [
+      "Aplicación universal. Resiste de 1800 grados de calor directo o 2500 grados de calor intermitente (Farenheit).",
+      "Promueve un mayor flujo para mejorar el rendimiento. Reduce la temperatura y vibración.",
+      "Extremadamente flexible para un ajuste ceñido y seguro."
+    ],
+    "tags": [
+      "vh",
+      "mt",
+      "acmt"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Boss GT-1 Guitarra con procesador multiefectos",
+    "price": 150,
+    "currency": "$",
+    "images": [
+      "/assets/img/products/pedal_guitarra_boss_1.jpg"
+    ],
+    "id": 20,
+    "description": [
+      "Motor de sonido flagship-class Boss está en un ligero y compacto clóset",
+      "Diseño moderno con no hay bordes duros permite un transporte seguro en una bolsa de guitarra",
+      "Fácil de seleccionar y fácil de editar funciones para elegir y parches de ajuste",
+      "Cuatro pilas AA proporcionan hasta siete horas de tiempo de juego para busking móvil y conciertos",
+      "Incluye interruptor de control y pedal de expresión; Pedal De expresión/pedal Jack y USB",
+      "Se puede hacer precio si se compra junto con guitarra y amplificador",
+      " "
+    ],
+    "ref_url": "https://www.amazon.com/-/es/Boss-GT-1-Guitarra-procesador-multiefectos/dp/B01M03W1HD/ref=sr_1_5?__mk_es_US=ÅMÅŽÕÑ&crid=3BUHPUI55NYMC&keywords=pedal+boss+gt1&qid=1657730927&sprefix=pedal+boss+gt1%2Caps%2C129&sr=8-5",
+    "tags": [
+      "au",
+      "el",
+      "ent"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Guitarra eléctrica + amplificador Marshall + base de guitarra", 
+    "price": 180,
+    "currency": "$",
+    "images": [
+      "/assets/img/products/guitarra_1.jpg",
+      "/assets/img/products/guitarra_2.jpg",
+      "/assets/img/products/guitarra_3.jpg"
+    ],
+    "id": 21,
+    "description": [
+      "Guitarra eléctrica modelo Les Paul con amplificador Marshall.",
+      "Se incluye base de piso para guitarra.",
+      "Se puede hacer precio si se compra junto con Boss GT-1 Guitarra con procesador multiefectos"
+    ],
+    "tags": [
+      "au",
+      "el",
+      "ent"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Cargador de baterías para carro o moto",
+    "price": 15,
+    "currency": "$",
+    "images": [
+      "/assets/img/products/cargador_bateria_1.jpg"
+    ],
+    "id": 22,
+    "description": [
+      "MULTI-PURPOSES BATTERY CHARGER】6V and 12V Pb/SLA/VRLA/GEL/AGM lead acid battery charger tender, operated with vulcanization function, Adakiit battery maintainer charger is a great choice for lawn mower, boat, car, motorcycle, ATV, scooter, snowmobile, trucks (small), electric vehicle, electric tools, etc.( 4-120Ah)Used as Trickle Battery Charger as well.UPGRADED WITH 50A FUSE ONTO RING CONNECTORS",
+      " "
+    ],
+    "ref_url": "https://www.amazon.com/gp/product/B07ZCXDQSP/ref=ppx_yo_dt_b_asin_title_o09_s01?ie=UTF8&psc=1",
+    "tags": [
+      "vh",
+      "acvh",
+      "mt",
+      "acmt",
+      "el"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Inversor de corriente Bestek 300 W CC 12 V a 110 V CA con adaptador de auto con puerto USB doble 4.2 A",
+    "price": 15,
+    "currency": "$",
+    "images": [
+      "/assets/img/products/inversor_corriente_1.jpg"
+    ],
+    "id": 23,
+    "description": [
+      "Ventaja de Bestek: marca líder en inversores de corriente de Estados Unidos. Proporciona potencia continua 300 W CC a CA y 700 W de potencia instantánea, con 2 tomas de corriente CA y 2 puertos USB para carga multiuso.",
+      "Carga rápida: 2 salidas de 110 V CA para la carga de dispositivos más grandes, como computadoras portátiles y tabletas, 2 puertos de carga USB (2.1 A y 1 A) para utilizar con dispositivos USB compatibles.",
+      " "
+    ],
+    "ref_url": "https://www.amazon.com/gp/product/B004MDXS0U/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1",
+    "tags": [
+      "vh",
+      "acvh",
+      "el"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Trípode y selfie stick",
+    "price": 8000,
+    "currency": "₡",
+    "images": [
+      "/assets/img/products/tripode_selfie_1.jpg",
+      "/assets/img/products/tripode_selfie_2.jpg"
+    ],
+    "id": 24,
+    "description": [
+      "Trípode para cámara o teléfono",
+      "Selfie strick con botón bluetooth para disparador de foto o video"
+    ],
+    "tags": [
+      "ent",
+      "hm"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Kit de protectores para patinaje",
+    "price": 15000,
+    "currency": "₡",
+    "images": [
+      "/assets/img/products/kit_patinaje.jpg"
+    ],
+    "id": 25,
+    "description": [
+      "Incluye casco, rodilleras, coderas y protector de muñeca"
+    ],
+    "tags": [
+      "ent"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Dron Cheerwing Syma 20, de bolsillo 2.4Ghz",
+    "price": 15,
+    "currency": "$",
+    "images": [
+      "/assets/img/products/mini_drone_1.jpg",
+      "/assets/img/products/mini_drone_2.jpg"
+    ],
+    "id": 26,
+    "description": [
+      "Syma X20 Mini Drone es la nueva drone mejorado con multi funciones, más estable y más adecuada para niños y principiante",
+      "Una clave de despegue y aterrizaje función: Permitir principiante a fácil para volar el DRONE sin ninguna habilidad. One Touch Down Función es más importante para proteger el drone cuando se está fuera de control o baja energía de la batería, el drone volará hacia abajo lentamente y la tierra en el terreno automáticamente antes de los motores de parada."
+    ],
+    "tags": [
+      "ent",
+      "el"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Monitor ACER 24''",
+    "price": 90,
+    "currency": "$",
+    "images": [
+      "/assets/img/products/monitor_acer_24_1.jpg",
+      "/assets/img/products/monitor_acer_24_2.jpg",
+      "/assets/img/products/monitor_acer_24_3.jpg"
+    ],
+    "id": 27,
+    "description": [
+      "Monitor ACE 24 pulgadas",
+      "2 puertos HDMI, puerto VGA IN, puertos de adudio"
+    ],
+    "tags": [
+      "ent",
+      "cmp",
+      "el",
+      "of"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Einhell TE-CD Power X-Change 18 voltios Taladro de velocidad variable inalámbrico",
+    "price": 100,
+    "currency": "₡",
+    "images": [
+      "/assets/img/products/taladro_1.jpg",
+      "/assets/img/products/taladro_2.jpg"
+    ],
+    "id": 28,
+    "description": [
+      "Power X-Change: el sistema de batería de 18 voltios ofrece la posibilidad única de suministrar energía a todas las herramientas Einhell y equipos de jardín de la familia Power X-Change con un tipo de batería. 1 batería. 1000 posibilidades.",
+      "Ajuste de torsión: con 21 ajustes de par de torsión y 2 velocidades de engranaje, el TE-CD se puede adaptar a cualquier trabajo o material.",
+      "Luz LED: luz LED integrada que ilumina el espacio de trabajo.",
+      "Kit con Doble batería",
+      " "
+    ],
+    "ref_url": "https://www.amazon.com/-/es/X-Change-velocidad-variable-inalámbrico-pulgadas/dp/B0851JJJDX/ref=sr_1_5?keywords=einhell%2Bdrill&qid=1657732702&sr=8-5&th=1",
+    "tags": [
+      "hm",
+      "el"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Protectores de pierna y rodilla para moto",
+    "price": 12000,
+    "currency": "₡",
+    "images": [
+      "/assets/img/products/rodilleras_moto_1.jpg",
+      "/assets/img/products/rodilleras_moto_2.jpg"
+    ],
+    "id": 29,
+    "description": [
+      "Rodilleras protectoras para moto, en perfecto estado, sin ninguna caida"
+    ],
+    "tags": [
+      "mt",
+      "acmt",
+      "acvh"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Teclado mecánico keychron",
+    "price": 65,
+    "currency": "$",
+    "images": [
+      "/assets/img/products/teclado_1.jpg",
+      "/assets/img/products/teclado_2.jpg"
+    ],
+    "id": 30,
+    "description": [
+      "Teclado mecánico Bluetooth compacto con retroiluminación RGB del 75% (84 teclas). El teclado definitivo mantiene los métodos abreviados y las teclas de flecha. El marco inferior inclinado hace que el K2 sea más cómodo de escribir incluso sin reposamuñecas.",
+      "Se conecta con hasta 3 dispositivos a través de Bluetooth y cambia entre ellos fácilmente. Con el último chipset Broadcom Bluetooth 5.1, el K2 es mejor para adaptarse al hogar, la oficina y los juegos ligeros mientras se conecta con su smartphone, portátil y iPad. También tiene modo cableado con conexión USB tipo C.",
+      "Con un diseño único para Mac, el teclado para juegos K2 tiene todas las teclas de función Mac necesarias, mientras que es compatible con Windows. Incluye teclas adicionales para el sistema operativo Windows y Mac.",
+      "K2 puede durar hasta 72 horas de escritura, o hasta 7 días de uso normal (cuenta 8 horas por día) con una batería grande de 4000 mAh, que es una de las más grandes en teclado mecánico. Rollover N-key (NKRO) en modo con cable o 6KRO en modo inalámbrico.",
+      "Nuevo sin usar",
+      " "
+    ],
+    "ref_url": "https://www.amazon.com/-/es/Keychron-K2-inalámbrico-interruptor-Windows-versión/dp/B07QHWLZG6?th=1",
+    "tags": [
+      "cmp",
+      "of",
+      "el"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "LG Lavaseca frontal Direct Drive ThinQ™",
+    "price": 500000,
+    "currency": "₡",
+    "images": [
+      "/assets/img/products/lava_seca_lg_1.jpg",
+      "/assets/img/products/lava_seca_lg_2.jpg",
+      "/assets/img/products/lava_seca_lg_3.jpg",
+      "/assets/img/products/lava_seca_lg_4.jpg"
+    ],
+    "id": 31,
+    "description": [
+      "22/13kg Lavasecadora Carga Frontal , con Vapor, Direct Drive Inverter & Smart ThinQ(WI-Fi), Color Acero",
+      "Ahorra Tiempo con TurboWash™",
+      "Limpieza Superior y Cuidado de las prendas con 6MotionDD™",
+      "Durabilidad, Ahorro y confianza con Motor Inverter Direct Drive™",
+      "ThinQ",
+      " "
+    ],
+    "ref_url": "https://www.gollotienda.com/lg-lavadora-secadora-frontal-direct-drive-thinqtm-wd22vts6m-48-lbs",
+    "tags": [
+      "ec",
+      "hm",
+      "el"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Exprimidor Black+Decker",
+    "price": 8000,
+    "currency": "₡",
+    "images": [
+      "/assets/img/products/exprimidor_1.jpg"
+    ],
+    "id": 32,
+    "description": [
+      " "
+    ],
+    "tags": [
+      "ec",
+      "hm",
+      "el"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Coffee Maker Oster",
+    "price": 10000,
+    "currency": "₡",
+    "images": [
+      "/assets/img/products/coffee_maker_1.jpg"
+    ],
+    "id": 33,
+    "description": [
+      "Coffee maker Oster pequeño, para 4 tazas."
+    ],
+    "tags": [
+      "ec",
+      "hm",
+      "el"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Microhonda LG",
+    "price": 90000,
+    "currency": "₡",
+    "images": [
+      "/assets/img/products/micro_1.jpg"
+    ],
+    "id": 34,
+    "description": [
+      "Excelente desempeño de cocción con Smart Inverter",
+      "Fácil limpieza con Easy Clean™ Antibacterial",
+      "Diseño práctico de usar (Anillo giratorio estable, Luz LED)",
+      "Mayor capacidad",
+      "El perro no va incluido :)",
+      " "
+    ],
+    "ref_url": "https://www.tiendamonge.com/horno-de-microondas-lg-1-5cp-mh1596cir-neochef-silver-153993",
+    "tags": [
+      "ec",
+      "hm",
+      "el"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Horno tostador Black+Decker",
+    "price": 90000,
+    "currency": "₡",
+    "images": [
+      "/assets/img/products/hornito_1.jpg"
+    ],
+    "id": 35,
+    "description": [
+      "Bandeja recoge boronas",
+      "Parrilla y bandeja para asar",
+      "Rostizado automático",
+      "NOTA: el link de referecia es un horno parecido pero de menor calidad, black and decker es mejor marca y más duradero",
+      " "
+    ],
+    "ref_url": "https://www.tiendamonge.com/horno-tostador-telstar-tht100910de-acero-inoxidable-156719",
+    "tags": [
+      "ec",
+      "hm",
+      "el"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Refrigerador Smart LG",
+    "price": 1600000,
+    "currency": "₡",
+    "images": [
+      "/assets/img/products/refri_1.jpg",
+      "/assets/img/products/refri_2.jpg",
+      "/assets/img/products/refri_3.jpg",
+      "/assets/img/products/refri_4.jpg"
+    ],
+    "id": 36,
+    "description": [
+      "InstaView Door-in-Door®",
+      "Motor Inverter Linear Compressor",
+      "Multi Air Flow",
+      "Hygiene Fresh+",
+      "Smart Diagnosis",
+      "Excelente estado, conserva algunos plásticos protectores, ver el precio en tienda.",
+      " "
+    ],
+    "ref_url": "https://www.gollotienda.com/lg-reefrigeradora-ls74sxs-26-pies",
+    "tags": [
+      "ec",
+      "hm",
+      "el"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Airsfot G&C Combat machine",
+    "price": 140000,
+    "currency": "₡",
+    "images": [
+      "/assets/img/products/airsoft_gun_1.jpg",
+      "/assets/img/products/airsoft_gun_2.jpg"
+    ],
+    "id": 37,
+    "description": [
+      "Resorte m120",
+      "Cañon de precisión",
+      "Lipo ready",
+      "Mira holográfica",
+      "Altos fps",
+      "Caja de balines"
+    ],
+    "tags": [
+      "ent"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Cocina + Horno Whirlpool eléctrica",
+    "price": 290000,
+    "currency": "₡",
+    "images": [
+      "/assets/img/products/cocina_1.jpg",
+      "/assets/img/products/cocina_2.jpg"
+    ],
+    "id": 38,
+    "description": [
+      "Whirlpool Cocina Eléctrica / WFE320M0JS / 4 Quemadores"
+    ],
+    "ref_url": "https://www.gollotienda.com/whirlpool-cocina-electrica-wfe320m0js-4-quemadores",
+    "tags": [
+      "ec",
+      "hm",
+      "el"
+    ],
+    "status": "______",
+    "featured": false
   }
 ]

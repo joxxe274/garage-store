@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           <div className="footer-content">
             <div className="item">
               <a href="mailto:joxxe274@gmail.com?subject=Interesado en venta de garage">
-                <Image src={'/assets/img/icons/mail-icon-2.png'} alt="Arrow" width={20} height={20}></Image>
+                <Image src={'/assets/img/icons/mail-icon.png'} alt="Arrow" width={20} height={20}></Image>
                 joxxe274@gmail.com
               </a>
             </div>

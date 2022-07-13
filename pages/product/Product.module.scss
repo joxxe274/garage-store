@@ -52,6 +52,12 @@
       color: rgba(0, 0, 0, 0.8);
       font-weight: normal;
       font-size: 14px;
+      a {
+        color: blue;
+        margin-left: 3px;
+        font-size: 16px;
+        font-weight: bold;
+      }
       &.productPrice {
         span {
           font-weight: bold;

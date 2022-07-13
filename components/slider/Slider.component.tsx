@@ -4,6 +4,7 @@ import React from 'react'
 import Slider, { Settings } from 'react-slick';
 import { Product } from '../../@types/products';
 import styles from './Slider.module.scss';
+import { formatNumber } from '../../services/utils';
 
 var settings: Settings = {
   dots: false,
@@ -58,7 +59,7 @@ export const SliderComponent: React.FC<SliderProps> = ({products}) =>{
                 {product.description[0]}
               </p>
               <p className={styles.productPrice}>
-                <span>Precio:</span> {product.price}{product.currency}
+                <span>Precio:</span> {formatNumber(product.price)}{product.currency}
               </p>
               <Link href={`/product/${product.id}`}>
                 <div className={styles.moreButton}>
