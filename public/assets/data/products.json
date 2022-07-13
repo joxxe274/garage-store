@@ -19,7 +19,7 @@
     "id": 1,
     "description": [
       "Versión full, asientos de cuero, full accesorios",
-      "Servicios de mantenimienot al día",
+      "Servicios de mantenimiento al día",
       "17.000km",
       "Extras:",
       " ∙ Llantas Yokohama LT- 285 / 65/ R18 (Llanta de respuesto incluida)",
@@ -71,7 +71,7 @@
   },
   {
     "name": "Televisor QLED Samsung 4k 65''",
-    "price": 100,
+    "price": 600,
     "currency": "$",
     "images": [
       "/assets/img/products/tv_samsung_1.jpg",
@@ -415,7 +415,7 @@
   },
   {
     "name": "Palancas cortas freno embrague",
-    "price": 100,
+    "price": 10000,
     "currency": "₡",
     "images": [
       "/assets/img/products/manillas_moto_1.jpg",
@@ -633,8 +633,8 @@
   },
   {
     "name": "Einhell TE-CD Power X-Change 18 voltios Taladro de velocidad variable inalámbrico",
-    "price": 100,
-    "currency": "₡",
+    "price": 45,
+    "currency": "$",
     "images": [
       "/assets/img/products/taladro_1.jpg",
       "/assets/img/products/taladro_2.jpg"
