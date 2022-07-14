@@ -1,9 +1,26 @@
+import React from 'react';
+
 import '../styles/globals.scss'
 import type { AppProps } from 'next/app'
 import { MainLayout } from '../layouts/Main.layout';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
+import * as ga from '../shared/utils/ga';
 
 function MyApp({ Component, pageProps }: AppProps) {
+  const router = useRouter();
+
+  React.useEffect(() => {
+    const handleRouteChange = (url: string) => {
+      ga.pageview(url);
+    }
+    router.events.on('routeChangeComplete', handleRouteChange)
+
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange)
+    }
+
+  }, [router.events])
   return (
     <>
         <Component {...pageProps} />

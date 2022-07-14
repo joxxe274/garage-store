@@ -48,7 +48,7 @@ const ProductComponent: NextPage<ProductProps> = ({product}) => {
   }
 
   return (
-    <MainLayout description={descriptionPage} image={product.images[0]}>
+    <MainLayout description={descriptionPage} image={product.images[0]} title={product.name}>
       <Header />
       <div className={styles.container}>
         <div className={styles.sliderContainer}>
