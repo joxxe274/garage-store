@@ -60,6 +60,9 @@
         position: absolute;
         left: 0;
         bottom: 0;
+        &.moreButtonSold {
+          background-color: rgba(235, 16, 16, 0.9);
+        }
       }
     }
   }

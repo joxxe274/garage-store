@@ -78,6 +78,9 @@ const ProductComponent: NextPage<ProductProps> = ({product}) => {
               <p className={styles.productRef}>Referencia: 
               <a href={product.ref_url} target="_BLANK" rel="noreferrer">Link.</a></p>
             )}
+            {product.status === 'sold' && (
+              <p className={styles.productSold}>Vendido</p>
+            )}
           </div>
         </div>
       </div>

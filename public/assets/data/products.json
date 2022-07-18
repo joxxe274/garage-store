@@ -91,7 +91,7 @@
       "ed",
       "hm"
     ],
-    "status": "Excelentes condiciones",
+    "status": "sold",
     "featured": true
   },
   {
@@ -223,7 +223,7 @@
       "of",
       "ent"
     ],
-    "status": "______",
+    "status": "sold",
     "featured": false
   },
   {
@@ -268,7 +268,7 @@
       "hm"
     ],
     "ref_url": "https://mistorecr.com/producto/mi-body-composition-scale-2/",
-    "status": "______",
+    "status": "sold",
     "featured": false
   },
   {
@@ -315,7 +315,7 @@
       "au",
       "el"
     ],
-    "status": "______",
+    "status": "sold",
     "featured": true
   },
   {
@@ -385,7 +385,7 @@
     "tags": [
       "hm"
     ],
-    "status": "______",
+    "status": "sold",
     "featured": false
   },
   {
@@ -454,7 +454,7 @@
       "mt",
       "acmt"
     ],
-    "status": "______",
+    "status": "sold",
     "featured": false
   },
   {
@@ -548,7 +548,7 @@
       "acvh",
       "el"
     ],
-    "status": "______",
+    "status": "sold",
     "featured": false
   },
   {
@@ -568,7 +568,7 @@
       "ent",
       "hm"
     ],
-    "status": "______",
+    "status": "sold",
     "featured": false
   },
   {
@@ -652,7 +652,7 @@
       "hm",
       "el"
     ],
-    "status": "______",
+    "status": "sold",
     "featured": false
   },
   {
@@ -672,7 +672,7 @@
       "acmt",
       "acvh"
     ],
-    "status": "______",
+    "status": "sold",
     "featured": false
   },
   {
@@ -745,7 +745,7 @@
       "hm",
       "el"
     ],
-    "status": "______",
+    "status": "sold",
     "featured": false
   },
   {
@@ -886,6 +886,85 @@
       "hm",
       "el"
     ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Kit de cocina para camping",
+    "price": 90,
+    "currency": "$",
+    "images": [
+      "/assets/img/products/kit_camping_1.png",
+      "/assets/img/products/kit_camping_2.png",
+      "/assets/img/products/kit_camping_3.png",
+      "/assets/img/products/kit_camping_4.png",
+      "/assets/img/products/kit_camping_5.png",
+      "/assets/img/products/kit_camping_6.png"
+    ],
+    "id": 39,
+    "description": [
+      "Juego de utensilios de cocina portátil de acero inoxidable para cocinar al aire libre y asar, organizador de utensilios de viaje, perfecto para viajes, picnics, caravanas, camping, barbacoas, fiestas y más (27 piezas)",
+      "Odoland 29 piezas de utensilios de cocina para camping, ollas ligeras antiadherentes, recipiente de agua plegable y cubo, tazas de acero inoxidable, tenedores, cuchillos cucharas para mochileros al aire libre, picnic",
+      "UTOI Guantes de parrilla para barbacoa, guantes de barbacoa resistentes al calor de 1472 °F, guantes de horno para cocina, jardín, barbacoa, barbacoa y cocina al aire libre, certificado EN407, 1 par de protección adicional de antebrazo de 13 pulgadas de largo",
+      " ",
+      "Las fotos son de amazon ya que no las he usado y están totalmente nuevas"
+    ],
+    "tags": [
+      "cp",
+      "ent"
+    ],
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Colchon auto inflable",
+    "price": 100,
+    "currency": "$",
+    "images": [
+      "/assets/img/products/colchon_inflable_1.png",
+      "/assets/img/products/colchon_inflable_2.png",
+      "/assets/img/products/colchon_inflable_3.png"
+    ],
+    "id": 40,
+    "description": [
+      "Obtén un poco de calidez y aislamiento real en noches al aire libre con nuestra almohadilla de dormir autoinflable. A diferencia de las almohadillas de dormir normales, nuestro colchón de camping con un valor R mucho más alto de 9.5 realmente podría aislar cualquier frío y humedad que provenga del suelo gracias a su diseño combinado único de espuma y aire, asegurando tus sueños acogedores y dulces en cualquier temporada. Incluso para acampar en invierno, resultará estar totalmente bien.",
+      "Máscara: 2 pulgadas más largo, 2 pulgadas más ancho e innumerables veces más cómodo. Nuestra almohadilla de espuma con mayor ancho y longitud es la perfecta que realmente se adapta a personas de cualquier forma. Puedes estirarte total y cómodamente sin sentir que tus brazos o pies se caen al suelo. Duerme bien como nunca antes",
+      "Ahorra cada segundo en inflar, especialmente en el aire libre. Nuestra almohadilla de camping autoinflable con válvula patentada de 2 vías hace que el inflado sea muy fácil. Simplemente gira la válvula al lado de inflado y nuestra almohadilla doble para dormir se infla por sí misma en solo 3 minutos, gira la válvula al lado de desinflación y puedes desinflarla fácilmente sin que el aire vuelva a fluir.",
+      " ",
+      "Las fotos son de amazon ya que no lo he usado y está totalmente nuevo"
+    ],
+    "tags": [
+      "cp",
+      "ent"
+    ],
+    "ref_url": "https://www.amazon.com/-/es/Hikenture-autoinflable-almohadilla-campamento-estaciones/dp/B09ZQMYSLC/ref=sr_1_4?__mk_es_US=ÅMÅŽÕÑ&crid=2WSPXBPWEPO8B&keywords=QOMOTOP%2BUltra%2BThick&qid=1658169421&s=sporting-goods&sprefix=qomotop%2Bultra%2Bthick%2Csporting%2C113&sr=1-4&th=1",
+    "status": "______",
+    "featured": false
+  },
+  {
+    "name": "Coleman Tienda de campaña con configuración instantánea en 60 segundos",
+    "price": 130,
+    "currency": "$",
+    "images": [
+      "/assets/img/products/carpa_1.png",
+      "/assets/img/products/carpa_2.png",
+      "/assets/img/products/carpa_3.png",
+      "/assets/img/products/carpa_4.png"
+    ],
+    "id": 41,
+    "description": [
+      "Weatherproof: Welded corners and inverted seams keep water from getting in",
+      "Enhanced ventilation: Integrated rainfly offers extra weather protection with better airflow",
+      "Built to last: Double-thick fabric stands up to the elements season after season",
+      " ",
+      "Incluye lona de techa para un extra de protección",
+      "Las fotos son de amazon ya que no lo he usado y está totalmente nuevo"
+    ],
+    "tags": [
+      "cp",
+      "ent"
+    ],
+    "ref_url": "https://www.amazon.com/gp/product/B004E4ERHA/ref=ppx_yo_dt_b_asin_title_o05_s02?ie=UTF8&th=1",
     "status": "______",
     "featured": false
   }

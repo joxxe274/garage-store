@@ -46,5 +46,8 @@
   {
     "label": "Mueble",
     "tag": "mb"
+  }, {
+    "label": "Camping",
+    "tag": "cp"
   }
 ]
