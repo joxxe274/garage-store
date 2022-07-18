@@ -316,7 +316,7 @@
       "el"
     ],
     "status": "sold",
-    "featured": true
+    "featured": false
   },
   {
     "name": "Monitor QLed 49'' Samsung Curvo Ultra-Wide 1ms",
@@ -368,7 +368,7 @@
       "of"
     ],
     "status": "______",
-    "featured": false
+    "featured": true
   },
   {
     "name": "Kit de herramientas",
@@ -790,7 +790,7 @@
       "el"
     ],
     "status": "______",
-    "featured": false
+    "featured": true
   },
   {
     "name": "Horno tostador Black+Decker",
